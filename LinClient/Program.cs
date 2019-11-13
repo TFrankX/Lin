@@ -12,12 +12,12 @@ namespace LinClient
             new Thread(() =>
             {
                 Thread.CurrentThread.IsBackground = true;
-                Connect("192.168.1.59", "Hello I'm Device 1...");
+                Connect("127.0.0.1", "Hello I'm Device 1...");
             }).Start();
             new Thread(() =>
             {
                 Thread.CurrentThread.IsBackground = true;
-                Connect("192.168.1.59", "Hello I'm Device 2...");
+                Connect("127.0.0.1", "Hello I'm Device 2...");
             }).Start();
             Console.ReadLine();
         }
