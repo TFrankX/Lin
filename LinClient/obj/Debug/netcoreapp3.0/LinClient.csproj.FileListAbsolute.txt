@@ -1,0 +1,11 @@
+C:\Project\LinTest\LinTest\LinClient\bin\Debug\netcoreapp3.0\LinClient.exe
+C:\Project\LinTest\LinTest\LinClient\bin\Debug\netcoreapp3.0\LinClient.deps.json
+C:\Project\LinTest\LinTest\LinClient\bin\Debug\netcoreapp3.0\LinClient.runtimeconfig.json
+C:\Project\LinTest\LinTest\LinClient\bin\Debug\netcoreapp3.0\LinClient.runtimeconfig.dev.json
+C:\Project\LinTest\LinTest\LinClient\bin\Debug\netcoreapp3.0\LinClient.dll
+C:\Project\LinTest\LinTest\LinClient\bin\Debug\netcoreapp3.0\LinClient.pdb
+C:\Project\LinTest\LinTest\LinClient\obj\Debug\netcoreapp3.0\LinClient.csprojAssemblyReference.cache
+C:\Project\LinTest\LinTest\LinClient\obj\Debug\netcoreapp3.0\LinClient.AssemblyInfoInputs.cache
+C:\Project\LinTest\LinTest\LinClient\obj\Debug\netcoreapp3.0\LinClient.AssemblyInfo.cs
+C:\Project\LinTest\LinTest\LinClient\obj\Debug\netcoreapp3.0\LinClient.dll
+C:\Project\LinTest\LinTest\LinClient\obj\Debug\netcoreapp3.0\LinClient.pdb
