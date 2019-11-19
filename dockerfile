@@ -24,4 +24,6 @@ FROM mcr.microsoft.com/dotnet/core/aspnet:3.0 AS runtime
 WORKDIR /app
 COPY --from=build /app/Lin/out ./
 COPY --from=build /app/LinClient/out ./
+
+EXPOSE 13000
 ENTRYPOINT ["dotnet", "LinServ.dll"]
