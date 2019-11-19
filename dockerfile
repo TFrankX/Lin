@@ -13,6 +13,7 @@ COPY Lin/. ./Lin/
 WORKDIR /app/Lin
 RUN dotnet publish -c Release -o out
 
+WORKDIR /app
 # copy everything else and build app
 COPY LinClient/. ./LinClient/
 WORKDIR /app/LinClient
@@ -23,4 +24,4 @@ FROM mcr.microsoft.com/dotnet/core/aspnet:3.0 AS runtime
 WORKDIR /app
 COPY --from=build /app/Lin/out ./
 COPY --from=build /app/LinClient/out ./
-ENTRYPOINT ["dotnet", "Lin.dll"]
+ENTRYPOINT ["dotnet", "LinServ.dll"]
