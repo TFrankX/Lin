@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Net;
 using System.Net.Sockets;
 using System.Threading;
 
@@ -9,15 +10,46 @@ namespace LinClient
     {
         static void Main(string[] args)
         {
+
+            string strHostName = new String("");
+            if (args.Length == 0)
+            {
+                // Getting Ip address of local machine...
+
+                // First get the host name of local machine.
+
+                strHostName = System.Net.Dns.GetHostName();
+                Console.WriteLine("Local Machine's Host Name: " + strHostName);
+            }
+            else
+            {
+                strHostName = args[0];
+            }
+
+            // Then using host name, get the IP address list..
+
+            IPHostEntry ipEntry = Dns.GetHostEntry(strHostName);
+            string addr="255.255.255.255";
+            foreach (var address in ipEntry.AddressList)
+            {
+                if (IPAddress.Parse(address.ToString()).AddressFamily == AddressFamily.InterNetwork)
+                {
+                    addr = address.ToString();
+                    break;
+                }
+            }
+            
+
+
             new Thread(() =>
             {
                 Thread.CurrentThread.IsBackground = true;
-                Connect("192.168.1.58", "Hello I'm Device 1...");
+                Connect("192.168.1.58", $"Hello I'm Device 1 from IP:{addr}");
             }).Start();
             new Thread(() =>
             {
                 Thread.CurrentThread.IsBackground = true;
-                Connect("192.168.1.58", "Hello I'm Device 2...");
+                Connect("0.0.0.0", $"Hello I'm Device 2 from IP:{addr}");
             }).Start();
             Console.ReadLine();
         }
