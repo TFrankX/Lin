@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Project\\Lin\\Lin\\LinServ.csproj": {}
+    "c:\\Project\\Lin\\Lin\\LinServ.csproj": {}
   },
   "projects": {
-    "C:\\Project\\Lin\\Lin\\LinServ.csproj": {
+    "c:\\Project\\Lin\\Lin\\LinServ.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Project\\Lin\\Lin\\LinServ.csproj",
+        "projectUniqueName": "c:\\Project\\Lin\\Lin\\LinServ.csproj",
         "projectName": "LinServ",
-        "projectPath": "C:\\Project\\Lin\\Lin\\LinServ.csproj",
+        "projectPath": "c:\\Project\\Lin\\Lin\\LinServ.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Project\\Lin\\Lin\\obj\\",
+        "outputPath": "c:\\Project\\Lin\\Lin\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

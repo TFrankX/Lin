@@ -9,3 +9,14 @@ C:\Project\LinTest\LinTest\LinClient\obj\Debug\netcoreapp3.0\LinClient.AssemblyI
 C:\Project\LinTest\LinTest\LinClient\obj\Debug\netcoreapp3.0\LinClient.AssemblyInfo.cs
 C:\Project\LinTest\LinTest\LinClient\obj\Debug\netcoreapp3.0\LinClient.dll
 C:\Project\LinTest\LinTest\LinClient\obj\Debug\netcoreapp3.0\LinClient.pdb
+c:\Project\Lin\LinClient\bin\Debug\netcoreapp3.0\LinClient.exe
+c:\Project\Lin\LinClient\bin\Debug\netcoreapp3.0\LinClient.deps.json
+c:\Project\Lin\LinClient\bin\Debug\netcoreapp3.0\LinClient.runtimeconfig.json
+c:\Project\Lin\LinClient\bin\Debug\netcoreapp3.0\LinClient.runtimeconfig.dev.json
+c:\Project\Lin\LinClient\bin\Debug\netcoreapp3.0\LinClient.dll
+c:\Project\Lin\LinClient\bin\Debug\netcoreapp3.0\LinClient.pdb
+c:\Project\Lin\LinClient\obj\Debug\netcoreapp3.0\LinClient.csprojAssemblyReference.cache
+c:\Project\Lin\LinClient\obj\Debug\netcoreapp3.0\LinClient.AssemblyInfoInputs.cache
+c:\Project\Lin\LinClient\obj\Debug\netcoreapp3.0\LinClient.AssemblyInfo.cs
+c:\Project\Lin\LinClient\obj\Debug\netcoreapp3.0\LinClient.dll
+c:\Project\Lin\LinClient\obj\Debug\netcoreapp3.0\LinClient.pdb

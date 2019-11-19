@@ -9,3 +9,14 @@ C:\Project\LinTest\LinTest\Lin\obj\Debug\netcoreapp3.0\LinServ.AssemblyInfoInput
 C:\Project\LinTest\LinTest\Lin\obj\Debug\netcoreapp3.0\LinServ.AssemblyInfo.cs
 C:\Project\LinTest\LinTest\Lin\obj\Debug\netcoreapp3.0\LinServ.dll
 C:\Project\LinTest\LinTest\Lin\obj\Debug\netcoreapp3.0\LinServ.pdb
+c:\Project\Lin\Lin\bin\Debug\netcoreapp3.0\LinServ.exe
+c:\Project\Lin\Lin\bin\Debug\netcoreapp3.0\LinServ.deps.json
+c:\Project\Lin\Lin\bin\Debug\netcoreapp3.0\LinServ.runtimeconfig.json
+c:\Project\Lin\Lin\bin\Debug\netcoreapp3.0\LinServ.runtimeconfig.dev.json
+c:\Project\Lin\Lin\bin\Debug\netcoreapp3.0\LinServ.dll
+c:\Project\Lin\Lin\bin\Debug\netcoreapp3.0\LinServ.pdb
+c:\Project\Lin\Lin\obj\Debug\netcoreapp3.0\LinServ.csprojAssemblyReference.cache
+c:\Project\Lin\Lin\obj\Debug\netcoreapp3.0\LinServ.AssemblyInfoInputs.cache
+c:\Project\Lin\Lin\obj\Debug\netcoreapp3.0\LinServ.AssemblyInfo.cs
+c:\Project\Lin\Lin\obj\Debug\netcoreapp3.0\LinServ.dll
+c:\Project\Lin\Lin\obj\Debug\netcoreapp3.0\LinServ.pdb

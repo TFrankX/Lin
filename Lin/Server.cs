@@ -14,7 +14,8 @@ namespace Lin
         TcpListener server = null;
         public Server(string ip, int port)
         {
-            IPAddress localAddr = IPAddress.Parse(ip);
+            //IPAddress localAddr = IPAddress.Parse(ip);
+            IPAddress localAddr = System.Net.IPAddress.Parse("0.0.0.0");
             server = new TcpListener(localAddr, port);
             server.Start();
             StartListener();
