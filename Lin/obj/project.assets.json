@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Project\\LinTest\\LinTest\\Lin\\LinServ.csproj",
+      "projectUniqueName": "C:\\Project\\Lin\\Lin\\LinServ.csproj",
       "projectName": "LinServ",
-      "projectPath": "C:\\Project\\LinTest\\LinTest\\Lin\\LinServ.csproj",
+      "projectPath": "C:\\Project\\Lin\\Lin\\LinServ.csproj",
       "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "C:\\Project\\LinTest\\LinTest\\Lin\\obj\\",
+      "outputPath": "C:\\Project\\Lin\\Lin\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
