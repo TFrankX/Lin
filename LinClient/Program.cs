@@ -49,7 +49,7 @@ namespace LinClient
             new Thread(() =>
             {
                 Thread.CurrentThread.IsBackground = true;
-                Connect("192.168.1.64", $"Hello I'm Device 2 from IP:{addr}");
+                Connect("192.168.1.64", $"Hello I'm Device 2 from IP:{addr} ");
             }).Start();
             Console.ReadLine();
         }
