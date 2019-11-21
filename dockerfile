@@ -26,4 +26,5 @@ COPY --from=build /app/Lin/out ./
 COPY --from=build /app/LinClient/out ./
 
 EXPOSE 13000
+EXPOSE 13001
 #ENTRYPOINT ["dotnet", "LinServ.dll"]
