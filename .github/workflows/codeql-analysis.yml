@@ -51,8 +51,8 @@ jobs:
     # If this step fails, then you should remove it and run the build manually (see below)
     - name: Autobuild       
       run: |
-        dotnet build /p:UseSharedCompilation=false 
-    
+        #dotnet build /p:UseSharedCompilation=false 
+        dotnet build
     #uses: github/codeql-action/autobuild@v1
     # - run: |
     #     dotnet build
